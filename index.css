@@ -1,0 +1,169 @@
+.First-Background{
+    background-image: url(./landing.jpg);
+    height: 4oopx;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+    clear: both;
+}
+.logo{
+    margin-top: 50px;
+    text-align: center;
+}
+.writing{
+   color: white;
+   font-size: x-large;
+}
+.happyhour{
+   background-color: whitesmoke;
+   color: white;
+   display: flex;
+   align-items: center;
+   height: 105px;
+   width: 300px;
+   text-align: center;
+}
+#partytime{
+   background: orangered;
+   display: flex;
+   align-content: center;
+   color: white;
+   height: 105px;
+   width: 300px;
+   text-align: left;
+   padding-left: 100px;
+   position: relative;
+   left: 10px;
+}   
+#row{
+   display: flex;
+   flex-direction: column;
+}
+.column{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.happy{
+    display: flex;
+    flex-direction: column;
+}
+.mealtype{
+    display: flex;
+    flex-direction: row;
+    margin-top: -15px;
+}
+#breakfast{
+    background: url(./breakfast.jpg); 
+    width: 300px;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    color: white;
+    font-style: italic;
+    height: 200px;
+}
+#Lunch{
+    background: url("./lunch.jpg");
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-style: italic;
+    font-size: 1.5rem;
+}   
+#dinner{
+    background: url(./dinner.jpg);
+    width: 300px;
+    height: 200;
+    display: flex;
+    justify-content: left;
+    color: white;
+    font-size: 1.5rem;
+    font: italic;
+    align-items:right;
+}
+#fastfood{
+    text-align: left;
+    background-color: white;
+    background: url(./fastFood1.jpg);
+    position: relative;
+    float: right;
+    margin-top: 20%;
+}
+#food{
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+.food-text{
+    float: right; 
+    text-align: center;
+}
+.fastfoods{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.firstdrink{
+    text-align: center;
+    flex-direction: row;
+    display: flex;
+}
+#drinks{
+    float: right;
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+}
+.drink-text{
+    float: left;
+}
+#Fastfood{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    align-content: center;
+    padding-bottom: 100px;
+}
+.Menu{
+    display: flex;
+    flex-direction:column ;
+    text-align: right;
+    align-items: center;
+    background-color: #F15A29;
+}
+.staffs{
+    display: flex;
+    flex-direction: row;
+}
+.burgers{
+    display: flex;
+    flex-direction: row;
+    margin-left: 200px;
+}
+.burgers>p{
+    color: white;
+}
+#image1{
+    display: flex;
+    flex-direction: column;
+}
+#image2{
+    display: flex;
+    flex-direction: column;
+}
+#image3{
+    display: flex;
+    flex-direction: column;
+}
+.miles{
+    background-image: url("./foodsBg.jpg");
+}
+#Abouts{
+    display: flex;
+    border: 200px;
+    box-shadow: 200px;
+}
